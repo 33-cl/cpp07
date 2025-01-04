@@ -12,7 +12,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CXX) $(CFLAGS) -o $(NAME) $(OBJ)
 
-$(OBJ_DIR)/%.o: src/%.cpp inc/templates.hpp | $(OBJ_DIR)
+$(OBJ_DIR)/%.o: src/%.cpp inc/iter.hpp | $(OBJ_DIR)
 	$(CXX) $(CFLAGS) -c $< -o $@
 
 $(OBJ_DIR):
