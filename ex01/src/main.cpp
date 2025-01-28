@@ -11,7 +11,7 @@ void square(int &x) {
 
 int main() {
     int arr[] = {1, 2, 3, 4, 5};
-    size_t len = sizeof(arr) / sizeof(arr[0]);
+    size_t len = 5;
 
     std::cout << "Original array     : ";
     iter(arr, len, print_int);
@@ -36,7 +36,7 @@ int main() {
 
 // int main() {
 //     double arr[] = {1.1, 2.2, 3.3, 4.4, 5.5};
-//     size_t len = sizeof(arr) / sizeof(arr[0]);
+//     size_t len = 5;
 
 //     std::cout << "Original array     : ";
 //     iter(arr, len, print_double);
