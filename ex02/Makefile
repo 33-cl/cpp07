@@ -1,7 +1,7 @@
 NAME = prog
 
 CXX = c++
-CFLAGS = -std=c++98# -Wall -Wextra -Werror
+CFLAGS = -std=c++98 -Wall -Wextra -Werror
 
 SRC = src/main.cpp
 OBJ_DIR = .build

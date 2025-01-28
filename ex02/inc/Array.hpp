@@ -33,7 +33,7 @@ Array<T>::Array(unsigned int n) : _size(n)
 }
 
 template <typename T>
-Array<T>::Array(const Array& other) : _size(other._size), _tab(new T[other._size])
+Array<T>::Array(const Array& other) : _tab(new T[other._size]), _size(other._size)
 {
     for (size_t i = 0; i < _size; i++)
         _tab[i] = other._tab[i];

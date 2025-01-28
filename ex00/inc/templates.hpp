@@ -18,8 +18,6 @@ T   min(const T val1, const T val2)
 {
     if (val1 < val2)
         return val1;
-    else if (val1 == val2)
-        return val1;
     return val2;
 }
 
@@ -27,8 +25,6 @@ template <typename T>
 T   max(const T val1, const T val2)
 {
     if (val1 > val2)
-        return val1;
-    else if (val1 == val2)
         return val1;
     return val2;
 }
